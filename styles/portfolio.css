@@ -77,14 +77,19 @@ p {
 @media (max-width: 960px) {
   .hero {
     margin: 0;
+    margin-bottom: 10px;
     padding: 15px;
     text-align: center;
   }
+
   .hero p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .hero h2 {
-    font-size: 20px;
+    font-size: 16px;
+  }
+  .hero h1 {
+    font-size: 65px;
   }
   .project-description {
     display: block;
