@@ -6,8 +6,12 @@
   --default-font-family: "Inter", sans-serif;
 }
 
+html,
 body {
-  background-color: #f8f8ff;
+  overflow-x: hidden;
+}
+body {
+  position: relative;
 }
 h1 {
   font-size: 72px;
@@ -74,6 +78,19 @@ p {
   color: ghostwhite;
 }
 
+.about-hero {
+  padding: 80px 100px;
+}
+.about-hero h1 {
+  font-size: 56px;
+}
+.about-hero h2 {
+  font-size: 25px;
+}
+.about-hero-content {
+  margin: 30px;
+}
+
 @media (max-width: 960px) {
   .hero {
     margin: 0;
@@ -95,5 +112,15 @@ p {
     display: block;
     padding: 0;
     text-align: left;
+  }
+  .about-hero {
+    text-align: center;
+    padding: 0;
+  }
+  .about-hero h1 {
+    font-size: 45px;
+  }
+  .about-hero h2 {
+    font-size: 20px;
   }
 }
