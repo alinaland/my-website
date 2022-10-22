@@ -31,9 +31,40 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.logo {
+  font-size: 20px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  font-family: var(--default-font-family);
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+nav li.active a,
+nav a:hover {
+  color: var(--accent-color);
+}
+.home-nav {
+  background-color: var(--secondary-color);
+}
+.home-nav .logo {
+  color: var(--accent-color);
+}
 .hero {
   background-color: var(--secondary-color);
-  text-align: left;
+  text-align: center;
   padding: 80px 200px;
   color: ghostwhite;
 }
@@ -106,6 +137,16 @@ p {
 }
 
 @media (max-width: 960px) {
+  .logo {
+    display: none;
+  }
+
+  nav ul {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
   .hero {
     margin: 0;
     margin-bottom: 10px;
