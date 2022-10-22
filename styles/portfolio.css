@@ -12,6 +12,7 @@ body {
 }
 body {
   position: relative;
+  background-color: ghostwhite;
 }
 h1 {
   font-size: 72px;
@@ -78,17 +79,28 @@ p {
   color: ghostwhite;
 }
 
-.about-hero {
+.content-container {
   padding: 80px 100px;
 }
-.about-hero h1 {
-  font-size: 56px;
+.content h1 {
+  font-size: 50px;
 }
-.about-hero h2 {
+.content h2 {
   font-size: 25px;
 }
-.about-hero-content {
+.content {
   margin: 30px;
+}
+.content h3 {
+  font-size: 25px;
+  font-family: var(--default-font-family);
+  margin: 20px 0 0;
+  line-height: 1.5;
+}
+.content p {
+  margin: 0;
+
+  font-size: 14px;
 }
 
 @media (max-width: 960px) {
@@ -113,14 +125,14 @@ p {
     padding: 0;
     text-align: left;
   }
-  .about-hero {
+  .content-container {
     text-align: center;
     padding: 0;
   }
-  .about-hero h1 {
+  .content-container h1 {
     font-size: 45px;
   }
-  .about-hero h2 {
+  .content-container h2 {
     font-size: 20px;
   }
 }
