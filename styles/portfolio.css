@@ -2,6 +2,7 @@
   --branding-color: #6c7b95;
   --secondary-color: #464159;
   --accent-color: #8bbabb;
+  --lightest-color: #c7f0db;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Inter", sans-serif;
 }
@@ -60,7 +61,7 @@ nav a:hover {
   background-color: var(--secondary-color);
 }
 .home-nav .logo {
-  color: var(--accent-color);
+  color: var(--lightest-color);
 }
 .hero {
   background-color: var(--secondary-color);
@@ -134,6 +135,35 @@ nav a:hover {
   margin: 0;
 
   font-size: 14px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--accent-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background-color: VAR(--accent-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  background-color: var(--lightest-color);
+  color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
 }
 
 @media (max-width: 960px) {
