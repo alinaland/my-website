@@ -70,7 +70,7 @@ nav a:hover {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 80px 200px;
+  padding: 80px 20px;
   color: ghostwhite;
 }
 
@@ -99,6 +99,7 @@ nav a:hover {
 }
 .btn-branding:hover {
   background-color: var(--accent-color);
+  color: ghostwhite;
 }
 
 .btn-branding-outline {
@@ -118,7 +119,7 @@ nav a:hover {
 }
 
 .content-container {
-  padding: 80px 100px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 50px;
